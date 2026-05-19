@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local notes
+notes/
+tmp/
+
+# Claude Code local settings (per-machine, not shared)
+.claude/settings.local.json

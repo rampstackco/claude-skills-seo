@@ -1,0 +1,88 @@
+# Claude Skills SEO
+
+A focused 12-skill SEO subset of [claude-skills](https://github.com/rampstackco/claude-skills). Designed for SEO consultants, freelancers, and in-house teams who want SEO depth in Claude Code without loading the full 99-skill catalog.
+
+## Why an SEO-focused subset
+
+The full claude-skills catalog has 15 SEO skills. Four require Ahrefs MCP setup, which is overhead for anyone just starting with Claude Code for SEO work. The remaining 11 standalone SEO skills plus a few content and meta skills cover the everyday SEO workflow.
+
+This repo answers the practical question: "which SEO skills should I load in Claude Code?" Load these 12 and your sessions are focused on SEO operations without scrolling past unrelated tools.
+
+When you need the Ahrefs-integrated workflows (backlink audits, rank tracking, gap analysis, orchestrated audits), reach for the full catalog.
+
+## What's included
+
+### SEO core (9)
+
+| Skill | Purpose |
+|---|---|
+| seo-keyword | Keyword research, intent classification, topical clustering |
+| seo-onpage | On-page audit: titles, meta, headers, internal links |
+| seo-technical | Technical audit: crawlability, indexability, rendering, schema |
+| seo-aeo-geo | Optimize for AI search (AI overviews, LLM citations) |
+| seo-traffic-diagnosis | Diagnose organic traffic drops, stalls, wins |
+| seo-site-health-audit | Triage technical findings by SEO impact |
+| seo-competitor | Competitive SEO analysis vs. chosen competitors |
+| seo-content-audit | Decide what content to keep, update, merge, redirect, delete |
+| programmatic-seo | Design and run a programmatic SEO program |
+
+### Content companion (2)
+
+SEO is inseparable from content. Two skills cover the content side without dragging in a full content stack:
+
+| Skill | Purpose |
+|---|---|
+| content-strategy | Anchor for content work that supports SEO |
+| content-and-copy | Writing and editing copy alongside SEO recommendations |
+
+### Skill authoring (1)
+
+| Skill | Purpose |
+|---|---|
+| skill-creation-walkthrough | Create new skills to extend the set yourself |
+
+## Installation
+
+Clone this repository into your Claude Code skills directory, or fork it and customize.
+
+```bash
+git clone https://github.com/rampstackco/claude-skills-seo.git
+```
+
+Then point Claude Code at the `skills/` directory according to your harness's configuration.
+
+## When to use the full catalog instead
+
+Reach for the full [claude-skills](https://github.com/rampstackco/claude-skills) catalog if you need:
+
+- **Ahrefs MCP-dependent workflows**: backlink audits, rank tracking, content gap audits, the orchestrated full-audit suite
+- **Off-page work**: digital PR, link building, citations, authority signals
+- **Specialized SEO depth**: keyword gap analysis with deeper data integration
+- **Cross-discipline work**: brand, design, paid media, analytics, product management
+
+The full catalog covers 15 SEO skills total plus 84 skills across content, brand, design, conversion, paid media, analytics, PM, and dev.
+
+## Companion repos
+
+- [claude-skills](https://github.com/rampstackco/claude-skills) - the full 99-skill catalog this SEO subset is curated from
+- [claude-skills-starter](https://github.com/rampstackco/claude-skills-starter) - general-purpose 14-skill starter set (broader coverage, less depth)
+- [claude-skills-widgets](https://github.com/rampstackco/claude-skills-widgets) - 65 widget patterns and 32 production-ready React + HTML/CSS implementations (useful when SEO work involves landing pages)
+
+## Pairing patterns
+
+| Working on | Load this combo |
+|---|---|
+| Pure SEO consulting | claude-skills-seo |
+| SEO + landing page builds | claude-skills-seo + claude-skills-widgets |
+| Full-stack marketing | claude-skills (full catalog) |
+| General Claude Code | claude-skills-starter |
+
+## Contributing
+
+This repository is curated rather than open to broad contribution. The skill list is deliberately focused on SEO and adjacent content work. Skill content changes should be made to the source repository at [claude-skills](https://github.com/rampstackco/claude-skills); changes accepted there can be re-synced here.
+
+If you spot an issue with how the SEO subset has copied or referenced a skill, or you want to propose a different SEO skill cut, open an issue or start a discussion.
+
+## License
+
+MIT. Use freely in commercial and non-commercial projects.
