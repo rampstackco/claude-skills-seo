@@ -11,21 +11,20 @@
   <rect width="800" height="280" fill="url(#grid)" opacity="0.6"/>
 
   <!-- Headline -->
-  <text x="400" y="100" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-weight="700" font-size="42" fill="#f1f5f9">Claude Skills SEO</text>
+  <text x="400" y="85" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-weight="700" font-size="42" fill="#f1f5f9">Claude Skills SEO</text>
 
   <!-- Tagline -->
-  <text x="400" y="140" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="18" fill="#94a3b8">12 SEO skills for Claude Code</text>
+  <text x="400" y="125" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="18" fill="#94a3b8">12 SEO skills for Claude Code</text>
 
-  <!-- Trend line illustration -->
-  <g transform="translate(200, 180)">
-    <polyline points="0,60 60,55 120,40 180,30 240,20 300,15 360,8"
+  <!-- Trend line illustration (sits between tagline and badges with clear vertical gaps) -->
+  <g transform="translate(220, 150)">
+    <polyline points="0,50 60,46 120,38 180,30 240,20 300,12 360,5"
               fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Endpoint dot -->
-    <circle cx="360" cy="8" r="5" fill="#10b981"/>
+    <circle cx="360" cy="5" r="5" fill="#10b981"/>
   </g>
 
-  <!-- Category badges -->
-  <g transform="translate(150, 230)">
+  <!-- Category badges (centered horizontally; aligned with workflow.svg phase names) -->
+  <g transform="translate(176, 225)">
     <rect x="0" y="0" width="80" height="24" rx="12" fill="#1e40af" opacity="0.3"/>
     <text x="40" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#93c5fd" font-weight="500">Research</text>
 
@@ -36,7 +35,7 @@
     <text x="224" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fca5a5" font-weight="500">Audit</text>
 
     <rect x="276" y="0" width="80" height="24" rx="12" fill="#ea580c" opacity="0.3"/>
-    <text x="316" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fdba74" font-weight="500">Optimize</text>
+    <text x="316" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fdba74" font-weight="500">Build</text>
 
     <rect x="368" y="0" width="80" height="24" rx="12" fill="#059669" opacity="0.3"/>
     <text x="408" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6ee7b7" font-weight="500">Content</text>
