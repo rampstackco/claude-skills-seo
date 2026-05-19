@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/hero.svg" alt="Claude Skills SEO" width="800"/>
+</p>
+
 # Claude Skills SEO
 
 A focused 12-skill SEO subset of [claude-skills](https://github.com/rampstackco/claude-skills). Designed for SEO consultants, freelancers, and in-house teams who want SEO depth in Claude Code without loading the full 99-skill catalog.
@@ -9,6 +13,14 @@ The full claude-skills catalog has 15 SEO skills. Four require Ahrefs MCP setup,
 This repo answers the practical question: "which SEO skills should I load in Claude Code?" Load these 12 and your sessions are focused on SEO operations without scrolling past unrelated tools.
 
 When you need the Ahrefs-integrated workflows (backlink audits, rank tracking, gap analysis, orchestrated audits), reach for the full catalog.
+
+## SEO operations flow
+
+<p align="center">
+  <img src="assets/images/workflow.svg" alt="SEO operations flow showing how the 12 skills fit into 5 phases" width="1000"/>
+</p>
+
+The 12 skills map to a 5-phase SEO operations flow, plus a meta skill for extending the set. Skills within a phase are designed to work together; phases flow into each other but you can enter the workflow at any phase based on the engagement.
 
 ## What's included
 

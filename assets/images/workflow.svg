@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520">
+  <!-- Background -->
+  <rect width="1000" height="520" fill="#ffffff"/>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <polygon points="0 0, 8 4, 0 8" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-weight="700" font-size="22" fill="#0f172a">SEO Operations Flow</text>
+  <text x="500" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#64748b">12 skills across 5 phases plus meta</text>
+
+  <!-- Phase 1: Research -->
+  <g transform="translate(60, 110)">
+    <rect width="160" height="180" rx="8" fill="#1e40af" opacity="0.08" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#1e40af">1. Research</text>
+    <rect x="12" y="48" width="136" height="32" rx="4" fill="#ffffff" stroke="#1e40af" stroke-width="1"/>
+    <text x="80" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">seo-keyword</text>
+    <rect x="12" y="90" width="136" height="32" rx="4" fill="#ffffff" stroke="#1e40af" stroke-width="1"/>
+    <text x="80" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">seo-competitor</text>
+  </g>
+
+  <!-- Phase 2: Diagnose -->
+  <g transform="translate(240, 110)">
+    <rect width="160" height="220" rx="8" fill="#7c3aed" opacity="0.08" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#7c3aed">2. Diagnose</text>
+    <rect x="12" y="48" width="136" height="32" rx="4" fill="#ffffff" stroke="#7c3aed" stroke-width="1"/>
+    <text x="80" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">seo-traffic-diagnosis</text>
+    <rect x="12" y="90" width="136" height="32" rx="4" fill="#ffffff" stroke="#7c3aed" stroke-width="1"/>
+    <text x="80" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">seo-site-health-audit</text>
+    <rect x="12" y="132" width="136" height="32" rx="4" fill="#ffffff" stroke="#7c3aed" stroke-width="1"/>
+    <text x="80" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">seo-content-audit</text>
+  </g>
+
+  <!-- Phase 3: Audit -->
+  <g transform="translate(420, 110)">
+    <rect width="160" height="220" rx="8" fill="#dc2626" opacity="0.08" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#dc2626">3. Audit</text>
+    <rect x="12" y="48" width="136" height="32" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1"/>
+    <text x="80" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">seo-onpage</text>
+    <rect x="12" y="90" width="136" height="32" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1"/>
+    <text x="80" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">seo-technical</text>
+    <rect x="12" y="132" width="136" height="32" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1"/>
+    <text x="80" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">seo-aeo-geo</text>
+  </g>
+
+  <!-- Phase 4: Build -->
+  <g transform="translate(600, 110)">
+    <rect width="160" height="140" rx="8" fill="#ea580c" opacity="0.08" stroke="#ea580c" stroke-width="1.5"/>
+    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#ea580c">4. Build</text>
+    <rect x="12" y="48" width="136" height="32" rx="4" fill="#ffffff" stroke="#ea580c" stroke-width="1"/>
+    <text x="80" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">programmatic-seo</text>
+  </g>
+
+  <!-- Phase 5: Content -->
+  <g transform="translate(780, 110)">
+    <rect width="160" height="180" rx="8" fill="#059669" opacity="0.08" stroke="#059669" stroke-width="1.5"/>
+    <text x="80" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#059669">5. Content</text>
+    <rect x="12" y="48" width="136" height="32" rx="4" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="80" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">content-strategy</text>
+    <rect x="12" y="90" width="136" height="32" rx="4" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+    <text x="80" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">content-and-copy</text>
+  </g>
+
+  <!-- Arrows between phases -->
+  <g stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrowhead)">
+    <line x1="220" y1="200" x2="234" y2="200"/>
+    <line x1="400" y1="200" x2="414" y2="200"/>
+    <line x1="580" y1="200" x2="594" y2="200"/>
+    <line x1="760" y1="200" x2="774" y2="200"/>
+  </g>
+
+  <!-- Meta skill -->
+  <g transform="translate(340, 400)">
+    <rect width="320" height="80" rx="8" fill="#f1f5f9" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="160" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#475569">Meta (extends the set)</text>
+    <rect x="80" y="42" width="160" height="28" rx="4" fill="#ffffff" stroke="#475569" stroke-width="1"/>
+    <text x="160" y="61" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">skill-creation-walkthrough</text>
+  </g>
+</svg>
