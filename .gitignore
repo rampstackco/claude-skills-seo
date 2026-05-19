@@ -8,6 +8,9 @@ Thumbs.db
 *.swp
 *.swo
 
+# Node
+node_modules/
+
 # Python
 __pycache__/
 *.pyc

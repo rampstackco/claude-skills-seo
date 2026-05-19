@@ -1,0 +1,12 @@
+{
+  "name": "claude-skills-seo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Curated 12-skill SEO subset of claude-skills. This package.json exists only to host the social-card generation tool.",
+  "scripts": {
+    "capture-social-card": "node tools/capture_social_card.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.45.0"
+  }
+}
