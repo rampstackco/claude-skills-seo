@@ -74,11 +74,19 @@ Reach for the full [claude-skills](https://github.com/rampstackco/claude-skills)
 
 The full catalog covers 15 SEO skills total plus 84 skills across content, brand, design, conversion, paid media, analytics, PM, and dev.
 
-## Companion repos
+## Family repos
 
-- [claude-skills](https://github.com/rampstackco/claude-skills) - the full 99-skill catalog this SEO subset is curated from
-- [claude-skills-starter](https://github.com/rampstackco/claude-skills-starter) - general-purpose 14-skill starter set (broader coverage, less depth)
-- [claude-skills-widgets](https://github.com/rampstackco/claude-skills-widgets) - 65 widget patterns and 32 production-ready React + HTML/CSS implementations (useful when SEO work involves landing pages)
+This catalog is part of the Claude Skills family. Other family repos:
+
+| Repo | Focus | Skills |
+|---|---|---|
+| [claude-skills](https://github.com/rampstackco/claude-skills) | Full catalog | 99 |
+| [claude-skills-starter](https://github.com/rampstackco/claude-skills-starter) | General-purpose lite | 14 |
+| [claude-skills-pm](https://github.com/rampstackco/claude-skills-pm) | Product management | 12 |
+| [claude-skills-widgets](https://github.com/rampstackco/claude-skills-widgets) | UI patterns + components | 65 + 32 |
+| [awesome-claude-skills](https://github.com/rampstackco/awesome-claude-skills) | Curated discovery list | n/a |
+
+Each family repo is MIT-licensed, conforms to the [Agent Skills Specification](https://agentskills.io), and is stack-agnostic. Use the full catalog for breadth; use a specialty subset when working in one domain.
 
 ## Pairing patterns
 
