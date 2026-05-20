@@ -4,6 +4,9 @@
 
 # Claude Skills SEO
 
+[![Skills](https://img.shields.io/badge/Skills-12-blue.svg)](#whats-included)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A focused 12-skill SEO subset of [claude-skills](https://github.com/rampstackco/claude-skills). Designed for SEO consultants, freelancers, and in-house teams who want SEO depth in Claude Code without loading the full 99-skill catalog.
 
 ## Why an SEO-focused subset
