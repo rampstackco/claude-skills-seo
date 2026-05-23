@@ -1,0 +1,10 @@
+{
+  "name": "rampstack-seo",
+  "description": "SEO consulting skills: keyword research, on-page, technical, content, competitor analysis, and Ahrefs-powered audits.",
+  "version": "1.0.0",
+  "author": { "name": "RampStack" },
+  "homepage": "https://rampstack.co",
+  "repository": "https://github.com/rampstackco/claude-skills-seo",
+  "license": "MIT",
+  "keywords": ["agent-skills", "claude-skills", "seo", "aeo", "geo"]
+}
