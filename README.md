@@ -7,7 +7,7 @@
 [![Skills](https://img.shields.io/badge/Skills-12-blue.svg)](#whats-included)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A focused 12-skill SEO subset of [claude-skills](https://github.com/rampstackco/claude-skills). Designed for SEO consultants, freelancers, and in-house teams who want SEO depth in Claude Code without loading the full 99-skill catalog.
+A focused 12-skill SEO subset of [claude-skills](https://github.com/rampstackco/claude-skills). Designed for SEO consultants, freelancers, and in-house teams who want SEO depth in Claude Code without loading the full 102-skill catalog.
 
 ## Why an SEO-focused subset
 
@@ -75,7 +75,7 @@ Reach for the full [claude-skills](https://github.com/rampstackco/claude-skills)
 - **Specialized SEO depth**: keyword gap analysis with deeper data integration
 - **Cross-discipline work**: brand, design, paid media, analytics, product management
 
-The full catalog covers 15 SEO skills total plus 84 skills across content, brand, design, conversion, paid media, analytics, PM, and dev.
+The full catalog covers 15 SEO skills total plus 87 skills across content, brand, design, conversion, paid media, analytics, PM, and dev.
 
 ## Family repos
 
@@ -83,7 +83,7 @@ This catalog is part of the Claude Skills family. Other family repos:
 
 | Repo | Focus | Skills |
 |---|---|---|
-| [claude-skills](https://github.com/rampstackco/claude-skills) | Full catalog | 99 |
+| [claude-skills](https://github.com/rampstackco/claude-skills) | Full catalog | 102 |
 | [claude-skills-starter](https://github.com/rampstackco/claude-skills-starter) | General-purpose lite | 14 |
 | [claude-skills-pm](https://github.com/rampstackco/claude-skills-pm) | Product management | 12 |
 | [claude-skills-widgets](https://github.com/rampstackco/claude-skills-widgets) | UI patterns + components | 65 + 32 |
