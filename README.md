@@ -17,6 +17,14 @@ This repo answers the practical question: "which SEO skills should I load in Cla
 
 When you need the Ahrefs-integrated workflows (backlink audits, rank tracking, gap analysis, orchestrated audits), reach for the full catalog.
 
+## Trust and security
+
+These skills are a curated SEO-focused subset of
+[rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) and
+follow the same review and integrity process. Each file is hashed in
+`SKILLS.lock` for verification. To report a security issue, see the
+[security policy](https://github.com/rampstackco/claude-skills/security/policy).
+
 ## SEO operations flow
 
 <p align="center">

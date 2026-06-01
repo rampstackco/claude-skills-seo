@@ -1,0 +1,70 @@
+{
+  "content-and-copy": {
+    "SKILL.md": "db7f39a944b6f1f1e409f75ef73bb54334bab656c412d0863faccb5e351ae99d",
+    "references/content-brief-template.md": "a487a56e9d243bf47f4871fad371779a92416507157d1b2c6138bc8d0382c7a0",
+    "references/content-edit-checklist.md": "050aef4e1a1476bc36f9f368d147810ad54d7ed22bca6ca0ecb281f77840f2f9"
+  },
+  "content-strategy": {
+    "SKILL.md": "47da7ef852a9acd14305bd7b34286086dbc4443613d55efe142d78cf761a9d63",
+    "references/content-strategy-template.md": "6707df3af82ddf656f3aeb945359ec9df0852e63c49590516d569581fe5a946a",
+    "references/editorial-calendar-template.md": "feb36bd8373c725f6a13418457e872cca7f63fe7256189233644338453d3130e"
+  },
+  "programmatic-seo": {
+    "SKILL.md": "77b72b60493e0ba4318eea8d0ee057269912ba4fce30c43730c35a4053a3aba0",
+    "references/aeo-geo-for-programmatic-pages.md": "8031f2166c564ef26408844e3ece8307c8b0f66439f21d4c028ae673a802adbe",
+    "references/common-pseo-failures.md": "0ec76af43aa1e0a0defd2694e6f4b6696adcda23eb258e77df37fc2167319c57",
+    "references/crawl-budget-management.md": "fad26a75046c4dfd5608a5c8ad6664eaf55e0907e39af80ec744f20a43236442",
+    "references/data-source-identification-patterns.md": "47e30d9c82b506ff114535c8b61ace44660231bc951603d4a461d85f8fb4ad77",
+    "references/internal-linking-at-scale.md": "71ec4c01a4b66f084f7f73aee529b4d8812cd78f4ae82096afdc2003d2621f33",
+    "references/quality-control-at-scale.md": "7a322a76f3ed92f99b7bc825768cb55be925e53d7293e6f544a2e02553772e19",
+    "references/refresh-at-scale.md": "73534ad0148d14642a9ad9af380cb11d505ceb1e8a261c49120f5269b20c2b0e",
+    "references/schema-design-patterns.md": "7fe01efab57456506e0ab790d7a7ccf52fccb41ea1a5bb8f87afd48ef385f984",
+    "references/template-design-patterns.md": "fbc97e1ebb9af4019be6a587a2ab7c119f8ca1393b3f9011add5af39dc14f64c",
+    "references/when-pseo-works-decision.md": "bdda44fa8dd1f9bf2ab5e6b33d3be616e86e5a45014b889f3b0bda609b484c28"
+  },
+  "seo-aeo-geo": {
+    "SKILL.md": "4831428e0fb7008bf3867ad4520467f6133d3033539baec796cead51f5f243a9",
+    "references/extraction-friendly-patterns.md": "85b0653394d246a848e1bec3c6595d4d19f6156e209de66871aea07e0883490f",
+    "references/llms-txt-guide.md": "008c48e172172ae440564956e7486014b91fdd93831bdcdc52e2dfbae3a00063"
+  },
+  "seo-competitor": {
+    "SKILL.md": "392069be672552bbbe9fae1063e51d61c40faa7bdc4ffcfd2d7bd0675b823c9e",
+    "references/competitive-audit-template.md": "0fe2971545f422c63edcb9aab9c6dbd87c80397617b65cb6da7eb63e9ffb133b",
+    "references/content-gap-method.md": "c330977140a343b11f7fab31972c4cc1b77d35f8c9dc5dd0807f964da9773994"
+  },
+  "seo-content-audit": {
+    "SKILL.md": "1b4400e3bb6d1c7eaf1cffdde1261aadda5bd2e507c57f2a3706d202e9eb1e27",
+    "references/audit-template.md": "fd85c836d4bf3baf72565cce07018a510e0f905b68690a199bc2acfa52465028",
+    "references/cannibalization-resolution.md": "1644a14351a85bf12fedb57b495ea95eb4b0f3f9a503777913023ce721740637"
+  },
+  "seo-keyword": {
+    "SKILL.md": "6d6cbd021a23108e394089f0e52a8c3f9cc535dbab6340c238d2a5824f5f7624",
+    "references/intent-classification-guide.md": "8570e2862107ee41e856f47d8410a07182329751f21861b0c32bb0ea692e6c01",
+    "references/keyword-research-template.md": "68d252b32e2c977a8ecf5bf2b5c9583316e6aaff3cdb257a7cd362ba3d1c57c5"
+  },
+  "seo-onpage": {
+    "SKILL.md": "7696f79ca396da6654f6901f9b9191cc4241437ed288fae9d9a995ef8aa0c8b9",
+    "references/audit-template.md": "e533f58b133340d11467232c5303a42e0467b723975a82de10965f34dcb41071",
+    "references/onpage-checklist.md": "4d2938783d3ac9a6a4f942b732bf752d031f13f83275baaa01e71df11245d21d",
+    "references/title-and-meta-patterns.md": "174d10417509e11d5c3654d0e4e018343f79e5bec317fa55d8003f7988c67ae6"
+  },
+  "seo-site-health-audit": {
+    "SKILL.md": "d41649ef897b68ee507de298cb2ef611abff68d135b4ee516bda8a269a37a5ee",
+    "references/issue-impact-table.md": "e59a5c298f0130d60ba9ad1c6855217e95168161a743e67c0988f766bb9efd24"
+  },
+  "seo-technical": {
+    "SKILL.md": "c9d06e3b86d8c958a8304ba6c4096a0fe3168e2e8cd031bcf4f8acb52cdc8dca",
+    "references/audit-template.md": "71d840bec52223e82eaebf518ad20636dcff163a316edc79923a5703f82ce92b",
+    "references/migration-checklist.md": "7f9a4dbdd9653d4a2d8a9c8795376562ac26545568db6f493a21c3f5bc485bb9"
+  },
+  "seo-traffic-diagnosis": {
+    "SKILL.md": "ea40ee1635381befd4811c50e51a2eab0080933c0b56b14134c5cb4c71d7e978",
+    "references/diagnosis-checklist.md": "f1d2a4bff1a9b764e6523b3f17fc78a4e6f9515ff939ff05346326106e933848"
+  },
+  "skill-creation-walkthrough": {
+    "SKILL.md": "c91b3c15ec41551b6796ed64d5b39e78f4a1a36d73a122275c563ca4ba16841d",
+    "references/description-cookbook.md": "b174690a9064f7b0cddb6aa289951321ecf96c34a7e18eed3307741fc0c76688",
+    "references/methodology-vs-implementation.md": "aab20f6c782a11d5c09ec7ac8ca39a1e1b0fbd2da27fa2774747b55c99da3608",
+    "references/skill-template.md": "f0e0e61d8183b9ad71179a060d99bea7f997f70f2e58e0d191491200f3213a93"
+  }
+}
