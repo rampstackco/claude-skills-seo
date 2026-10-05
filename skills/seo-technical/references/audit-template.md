@@ -318,3 +318,5 @@ Audit conducted by: [Name, date]
 Reviewed with: [Stakeholders]
 Implementation owner: [Name]
 Re-audit scheduled: [Date]
+
+Planted parity-test line. Reverted in the next commit.
