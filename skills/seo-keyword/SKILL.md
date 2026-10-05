@@ -167,5 +167,3 @@ This skill's output depends on data, measurements, or tool results it cannot gen
 
 - [`references/keyword-research-template.md`](references/keyword-research-template.md) - Spreadsheet column definitions and a markdown summary template.
 - [`references/intent-classification-guide.md`](references/intent-classification-guide.md) - Detailed examples of each of the four intent categories.
-
-Planted parity-test line. Reverted in the next commit.
