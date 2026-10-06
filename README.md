@@ -11,7 +11,9 @@ A focused SEO subset of [claude-skills](https://github.com/rampstackco/claude-sk
 
 ## Why an SEO-focused subset
 
-The full claude-skills catalog has 15 SEO skills. Four require Ahrefs MCP setup, which is overhead for anyone just starting with Claude Code for SEO work. The remaining 11 standalone SEO skills plus a few content and meta skills cover the everyday SEO workflow.
+<!-- AHREFS_MCP:START -->
+The full claude-skills catalog has 14 SEO skills. 6 list the Ahrefs MCP as a required input: `seo-audit-orchestration`, `seo-backlink-audit`, `seo-content-gap-audit`, `seo-keyword-gap-audit`, `seo-rank-tracking`, and `seo-traffic-diagnosis`. 1 needs it only when its data is pulled through Ahrefs: `seo-site-health-audit`. Of those, this subset includes `seo-traffic-diagnosis` and `seo-site-health-audit`. The others (`seo-audit-orchestration`, `seo-backlink-audit`, `seo-content-gap-audit`, `seo-keyword-gap-audit`, and `seo-rank-tracking`) stay in the full catalog.
+<!-- AHREFS_MCP:END -->
 
 This repo answers the practical question: "which SEO skills should I load in Claude Code?" Load these and your sessions are focused on SEO operations without scrolling past unrelated tools.
 
