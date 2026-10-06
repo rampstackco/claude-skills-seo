@@ -1,16 +1,15 @@
 name: Parent parity
 
 # Fails when any SKILL.md or references/ file here differs from
-# rampstackco/claude-skills main. The schedule matters most: drift starts in
-# the parent, which this repo's own pushes never see.
+# rampstackco/claude-skills main. Drift starts in the parent, which this
+# repo's own pushes never see: the daily check for that runs in the parent
+# (claude-skills .github/workflows/subset-parity.yml), not here.
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-  schedule:
-    - cron: "17 6 * * *"
   workflow_dispatch:
 
 permissions:
