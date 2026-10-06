@@ -1,0 +1,33 @@
+name: Parent parity
+
+# Fails when any SKILL.md or references/ file here differs from
+# rampstackco/claude-skills main. The schedule matters most: drift starts in
+# the parent, which this repo's own pushes never see.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  parity:
+    name: Compare skills with claude-skills main
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Compare blob hashes with the parent
+        run: python tools/check_parent_parity.py
