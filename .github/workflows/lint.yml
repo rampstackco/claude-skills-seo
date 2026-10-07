@@ -46,3 +46,11 @@ jobs:
 
       - name: Run skill linter
         run: python .github/scripts/lint_skills.py
+
+      # The README's Ahrefs MCP line is generated from the parent catalog's
+      # SKILL.md files (Required inputs), so it is checked against them here.
+      - name: README Ahrefs MCP line matches claude-skills
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python tools/gen_ahrefs_line.py --check

@@ -7,13 +7,15 @@
 [![Skills](https://img.shields.io/badge/Skills-12-blue.svg)](#whats-included)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A focused 12-skill SEO subset of [claude-skills](https://github.com/rampstackco/claude-skills). Designed for SEO consultants, freelancers, and in-house teams who want SEO depth in Claude Code without loading the full catalog.
+A focused SEO subset of [claude-skills](https://github.com/rampstackco/claude-skills). Designed for SEO consultants, freelancers, and in-house teams who want SEO depth in Claude Code without loading the full catalog.
 
 ## Why an SEO-focused subset
 
-The full claude-skills catalog has 15 SEO skills. Four require Ahrefs MCP setup, which is overhead for anyone just starting with Claude Code for SEO work. The remaining 11 standalone SEO skills plus a few content and meta skills cover the everyday SEO workflow.
+<!-- AHREFS_MCP:START -->
+The full claude-skills catalog has 14 SEO skills. 6 list the Ahrefs MCP as a required input: `seo-audit-orchestration`, `seo-backlink-audit`, `seo-content-gap-audit`, `seo-keyword-gap-audit`, `seo-rank-tracking`, and `seo-traffic-diagnosis`. 1 needs it only when its data is pulled through Ahrefs: `seo-site-health-audit`. Of those, this subset includes `seo-traffic-diagnosis` and `seo-site-health-audit`. The others (`seo-audit-orchestration`, `seo-backlink-audit`, `seo-content-gap-audit`, `seo-keyword-gap-audit`, and `seo-rank-tracking`) stay in the full catalog.
+<!-- AHREFS_MCP:END -->
 
-This repo answers the practical question: "which SEO skills should I load in Claude Code?" Load these 12 and your sessions are focused on SEO operations without scrolling past unrelated tools.
+This repo answers the practical question: "which SEO skills should I load in Claude Code?" Load these and your sessions are focused on SEO operations without scrolling past unrelated tools.
 
 When you need the Ahrefs-integrated workflows (backlink audits, rank tracking, gap analysis, orchestrated audits), reach for the full catalog.
 
@@ -28,10 +30,10 @@ follow the same review and integrity process. Each file is hashed in
 ## SEO operations flow
 
 <p align="center">
-  <img src="assets/images/workflow.svg" alt="SEO operations flow showing how the 12 skills fit into 5 phases" width="1000"/>
+  <img src="assets/images/workflow.svg" alt="SEO operations flow showing how the skills fit into 5 phases" width="1000"/>
 </p>
 
-The 12 skills map to a 5-phase SEO operations flow, plus a meta skill for extending the set. Skills within a phase are designed to work together; phases flow into each other but you can enter the workflow at any phase based on the engagement.
+The skills map to a 5-phase SEO operations flow, plus a meta skill for extending the set. Skills within a phase are designed to work together; phases flow into each other but you can enter the workflow at any phase based on the engagement.
 
 ## What's included
 
@@ -89,13 +91,13 @@ Beyond SEO, the full catalog covers content, brand, design, conversion, paid med
 
 This catalog is part of the Claude Skills family. Other family repos:
 
-| Repo | Focus | Skills |
-|---|---|---|
-| [claude-skills](https://github.com/rampstackco/claude-skills) | Full catalog | All |
-| [claude-skills-starter](https://github.com/rampstackco/claude-skills-starter) | General-purpose lite | 14 |
-| [claude-skills-pm](https://github.com/rampstackco/claude-skills-pm) | Product management | 12 |
-| [claude-skills-widgets](https://github.com/rampstackco/claude-skills-widgets) | UI patterns + components | 65 + 32 |
-| [awesome-claude-skills](https://github.com/rampstackco/awesome-claude-skills) | Curated discovery list | n/a |
+| Repo | Focus |
+|---|---|
+| [claude-skills](https://github.com/rampstackco/claude-skills) | Full catalog |
+| [claude-skills-starter](https://github.com/rampstackco/claude-skills-starter) | General-purpose lite |
+| [claude-skills-pm](https://github.com/rampstackco/claude-skills-pm) | Product management |
+| [claude-skills-widgets](https://github.com/rampstackco/claude-skills-widgets) | UI patterns + components |
+| [awesome-claude-skills](https://github.com/rampstackco/awesome-claude-skills) | Curated discovery list |
 
 Each family repo is MIT-licensed, conforms to the [Agent Skills Specification](https://agentskills.io), and is stack-agnostic. Use the full catalog for breadth; use a specialty subset when working in one domain.
 
